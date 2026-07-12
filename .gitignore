@@ -1,8 +1,14 @@
 cat > .gitignore << 'EOF'
+# Video files (downloaded / input footage)
+*.mp4
+*.mov
+*.avi
+*.mkv
 Big_Buck_Bunny_360_10s_30MB.mp4
 
-
+# Generated event streams (large, regenerable)
 events.txt
+*.events.txt
 
 # Python cruft
 __pycache__/
