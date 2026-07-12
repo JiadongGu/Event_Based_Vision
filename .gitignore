@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+Big_Buck_Bunny_360_10s_30MB.mp4
+
+
+events.txt
+
+# Python cruft
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+EOF
